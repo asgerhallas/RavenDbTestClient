@@ -1,0 +1,10 @@
+﻿{
+  "$id": "2",
+  "$type": "Energy10.Core.Domain.Services.Auth.Authentication, Energy10.Core.Domain",
+  "RememberMe": true,
+  "DueTime": "2012-09-19T13:40:05.4026399",
+  "UserId": "00000000-0000-0000-0000-000000000000",
+  "Username": "ahl@version3.dk",
+  "OnBehalfOfUsername": null,
+  "OnBehalfOfUserId": "00000000-0000-0000-0000-000000000000"
+}
