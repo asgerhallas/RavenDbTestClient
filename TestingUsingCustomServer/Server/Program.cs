@@ -52,7 +52,7 @@ namespace ConsoleApplication1
 					// 16 write calls
 					int size = buffer.Length/16;
 					var wrote = 0;
-					for (int i = 0; i < size; i++)
+					for (int i = 0; i < 16; i++)
 					{
 						ctx.Response.OutputStream.Write(buffer, wrote, size);
 						wrote += size;

@@ -1,1 +1,6 @@
 C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\bin\Debug\ConsoleApplication1.exe.config
+C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\bin\Debug\ConsoleApplication1.exe
+C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\bin\Debug\ConsoleApplication1.pdb
+C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\obj\Debug\ConsoleApplication1.exe
+C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\obj\Debug\ConsoleApplication1.pdb
