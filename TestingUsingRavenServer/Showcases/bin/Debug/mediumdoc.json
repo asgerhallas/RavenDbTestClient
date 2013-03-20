@@ -1,0 +1,2009 @@
+﻿{
+  "$id": "1",
+  "$type": "Energy10.Core.Domain.Model.Case.Case, Energy10.Core.Domain",
+  "buildings": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Building, Energy10.Core.Domain]], mscorlib",
+    "$values": [
+      {
+        "$id": "3",
+        "$type": "Energy10.Core.Domain.Model.Case.Building, Energy10.Core.Domain",
+        "calculationSummary": {
+          "$id": "4",
+          "$type": "Energy10.Core.Domain.Model.Case.CalculationSummary, Energy10.Core.Domain",
+          "StatusEnergyDemandPerArea": 0.0,
+          "StatusEnergyLabelClassification": "A1",
+          "AllProposalsEnergyDemandPerArea": 0.0,
+          "AllProposalsEnergyLabelClassification": "A1"
+        },
+        "loggedConsumptions": {
+          "$id": "5",
+          "$type": "Energy10.Core.Domain.Model.Case.LoggedConsumptions, Energy10.Core.Domain",
+          "building": {
+            "$ref": "3"
+          },
+          "consumptions": {
+            "$id": "6",
+            "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.LoggedConsumption, Energy10.Core.Domain]], mscorlib",
+            "$values": []
+          }
+        },
+        "zones": {
+          "$id": "7",
+          "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Zone, Energy10.Core.Domain]], mscorlib",
+          "$values": [
+            {
+              "$id": "8",
+              "$type": "Energy10.Core.Domain.Model.Case.Zone, Energy10.Core.Domain",
+              "calculationSummary": {
+                "$id": "9",
+                "$type": "Energy10.Core.Domain.Model.Case.CalculationSummary, Energy10.Core.Domain",
+                "StatusEnergyDemandPerArea": 0.0,
+                "StatusEnergyLabelClassification": "A1",
+                "AllProposalsEnergyDemandPerArea": 0.0,
+                "AllProposalsEnergyLabelClassification": "A1"
+              },
+              "statuses": {
+                "$id": "10",
+                "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+                "$values": [
+                  {
+                    "$id": "11",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.LinearThermalTransmittance, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "12",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "692b6c8b-cb13-4337-8f3c-b520c4d72717",
+                    "buildingUnit": {
+                      "$id": "13",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.LinearThermalTransmittance, Energy10.Core.Domain",
+                      "length": 189.1,
+                      "linearTrans": 0.4,
+                      "bValue": {
+                        "$id": "14",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "13"
+                        }
+                      },
+                      "brClassification": "Foundations",
+                      "bR10ClassificationForHolidayHome": null,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "context": {
+                        "$ref": "11"
+                      },
+                      "Id": "caa191e8-ebeb-44fd-b96f-dfcff21e0f48"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Fundament",
+                    "Description": null,
+                    "Id": "caa191e8-ebeb-44fd-b96f-dfcff21e0f48",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "15",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.LinearThermalTransmittance, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "16",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "692b6c8b-cb13-4337-8f3c-b520c4d72717",
+                    "buildingUnit": {
+                      "$id": "17",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.LinearThermalTransmittance, Energy10.Core.Domain",
+                      "length": 118.9,
+                      "linearTrans": 0.06,
+                      "bValue": {
+                        "$id": "18",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "17"
+                        }
+                      },
+                      "brClassification": "JointBetweenWallAndWindow",
+                      "bR10ClassificationForHolidayHome": null,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "context": {
+                        "$ref": "15"
+                      },
+                      "Id": "0769e46c-1547-4dbf-ab71-f3c664ae926d"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Vinduer",
+                    "Description": null,
+                    "Id": "0769e46c-1547-4dbf-ab71-f3c664ae926d",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "19",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.InternalHeatContribution, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "20",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "9c0c47c4-9170-4891-b495-fa1d2828a028",
+                    "buildingUnit": {
+                      "$id": "21",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.InternalHeatContribution, Energy10.Core.Domain",
+                      "area": 2017.4,
+                      "devicesInUsageOutsideUsageHours": 0.0,
+                      "persons": 4.0,
+                      "devicesInUsage": 6.0,
+                      "context": {
+                        "$ref": "19"
+                      },
+                      "Id": "d2edf469-461a-4e49-b221-4e59148a1436"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Erhverv",
+                    "Description": null,
+                    "Id": "d2edf469-461a-4e49-b221-4e59148a1436",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "22",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Ventilation, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "23",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "44ca92bd-ea61-4ea9-b79c-a56afcef7800",
+                    "buildingUnit": {
+                      "$id": "24",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Ventilation, Energy10.Core.Domain",
+                      "area": 1387.6,
+                      "electricHeatSurface": false,
+                      "infiltrationOutsideUsageHours": 0.0,
+                      "injectionTemperature": 18.0,
+                      "mechanicalVentilationSummer": 3.9,
+                      "mechanicalVentilationSummerOutsideUsageHours": 0.0,
+                      "mechanicalVentilationWinter": 3.9,
+                      "naturalOrMechanical": null,
+                      "naturalVentilationSummer": 0.08,
+                      "naturalVentilationSummerOutsideUsageHours": 0.0,
+                      "naturalVentilationWinter": 0.08,
+                      "size": null,
+                      "specialPowerUsage": 1.5,
+                      "temperatureEfficiency": 0.75,
+                      "usageFactor": 1.0,
+                      "ventilationSystemNumber": null,
+                      "context": {
+                        "$ref": "22"
+                      },
+                      "Id": "fcbcae3a-248d-440c-ac71-76e63eab1fa7"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Gruppe 1",
+                    "Description": null,
+                    "Id": "fcbcae3a-248d-440c-ac71-76e63eab1fa7",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "25",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Ventilation, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "26",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "44ca92bd-ea61-4ea9-b79c-a56afcef7800",
+                    "buildingUnit": {
+                      "$id": "27",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Ventilation, Energy10.Core.Domain",
+                      "area": 499.9,
+                      "electricHeatSurface": false,
+                      "infiltrationOutsideUsageHours": 0.0,
+                      "injectionTemperature": 18.0,
+                      "mechanicalVentilationSummer": 1.85,
+                      "mechanicalVentilationSummerOutsideUsageHours": 0.0,
+                      "mechanicalVentilationWinter": 1.85,
+                      "naturalOrMechanical": null,
+                      "naturalVentilationSummer": 0.08,
+                      "naturalVentilationSummerOutsideUsageHours": 0.0,
+                      "naturalVentilationWinter": 0.08,
+                      "size": null,
+                      "specialPowerUsage": 1.5,
+                      "temperatureEfficiency": 0.75,
+                      "usageFactor": 1.0,
+                      "ventilationSystemNumber": null,
+                      "context": {
+                        "$ref": "25"
+                      },
+                      "Id": "679c49b2-4ca6-4652-8075-f2c8012cf9d2"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Gruppe 2",
+                    "Description": null,
+                    "Id": "679c49b2-4ca6-4652-8075-f2c8012cf9d2",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "28",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Ventilation, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "29",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "44ca92bd-ea61-4ea9-b79c-a56afcef7800",
+                    "buildingUnit": {
+                      "$id": "30",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Ventilation, Energy10.Core.Domain",
+                      "area": 129.9,
+                      "electricHeatSurface": false,
+                      "infiltrationOutsideUsageHours": 0.0,
+                      "injectionTemperature": 0.0,
+                      "mechanicalVentilationSummer": 0.3,
+                      "mechanicalVentilationSummerOutsideUsageHours": 0.0,
+                      "mechanicalVentilationWinter": 0.3,
+                      "naturalOrMechanical": null,
+                      "naturalVentilationSummer": 0.0,
+                      "naturalVentilationSummerOutsideUsageHours": 0.0,
+                      "naturalVentilationWinter": 0.0,
+                      "size": null,
+                      "specialPowerUsage": 1.2,
+                      "temperatureEfficiency": 0.0,
+                      "usageFactor": 1.0,
+                      "ventilationSystemNumber": null,
+                      "context": {
+                        "$ref": "28"
+                      },
+                      "Id": "2322f79c-5ba5-46e3-acd6-645969929426"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Gruppe 3",
+                    "Description": null,
+                    "Id": "2322f79c-5ba5-46e3-acd6-645969929426",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "31",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterConsumption, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "32",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "2847fbf1-0292-479a-ad21-6766e49e3791",
+                    "buildingUnit": {
+                      "$id": "33",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterConsumption, Energy10.Core.Domain",
+                      "averageConsumption": 100.0,
+                      "temperature": 55.0,
+                      "context": {
+                        "$ref": "31"
+                      },
+                      "Id": "bc16a6b3-b28a-4861-a2c8-fd96d822b7c9"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Varmt brugsvand",
+                    "Description": null,
+                    "Id": "bc16a6b3-b28a-4861-a2c8-fd96d822b7c9",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "34",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HeatDistributionSystem, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "35",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "526a3ec1-d1b8-4322-9803-5591c8ef2171",
+                    "buildingUnit": {
+                      "$id": "36",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HeatDistributionSystem, Energy10.Core.Domain",
+                      "returnPipeTemperature": 30.0,
+                      "supplyPipeTemperature": 40.0,
+                      "typeOfSystem": "TwoString",
+                      "context": {
+                        "$ref": "34"
+                      },
+                      "Id": "b64e2faf-279a-4944-a267-94e8cfc6c496"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Anlægstype",
+                    "Description": null,
+                    "Id": "b64e2faf-279a-4944-a267-94e8cfc6c496",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "37",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.HeatSupplyStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HeatSupply.Boiler, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "38",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "64b4778f-d8c2-4e5a-b12c-34831f0e74c4",
+                    "buildingUnit": {
+                      "$id": "39",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HeatSupply.Boiler, Energy10.Core.Domain",
+                      "bValue": {
+                        "$id": "40",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": null
+                      },
+                      "constructionYear": null,
+                      "count": 1.0,
+                      "fullLoadCorrection": 0.001,
+                      "fullLoadEfficiency": 1.08,
+                      "idleLossFactor": 0.01,
+                      "idleShareToRoom": 0.5,
+                      "minimumTemperature": 95.0,
+                      "nominalEffect": 108.0,
+                      "otherPowerUsage": 50.0,
+                      "partialLoadCorrection": 0.001,
+                      "partialLoadEfficiency": 0.97,
+                      "partialLoadLoad": 0.3,
+                      "partialLoadTemperature": 35.0,
+                      "shareOfNominalEffectToHotWater": 1.0,
+                      "standbyPowerUsage": 5.0,
+                      "energyPerUnit": {
+                        "$id": "41",
+                        "$type": "Energy10.Core.Domain.Model.Energy.Energy, Energy10.Core.Domain",
+                        "kWh": 11.0
+                      },
+                      "fuelType": "NaturalGasCubic",
+                      "pricePerUnit": {
+                        "$id": "42",
+                        "$type": "System.Nullable`1[[System.Money, Money]], mscorlib",
+                        "_currency": {
+                          "$id": "43",
+                          "$type": "System.Currency, Money",
+                          "_id": 208
+                        },
+                        "_units": 8,
+                        "_decimalFraction": 800000000
+                      },
+                      "yearlySubscriptionPrice": {
+                        "$id": "44",
+                        "$type": "System.Nullable`1[[System.Money, Money]], mscorlib",
+                        "_currency": {
+                          "$id": "45",
+                          "$type": "System.Currency, Money",
+                          "_id": 208
+                        },
+                        "_units": 0,
+                        "_decimalFraction": 923000000
+                      },
+                      "context": {
+                        "$ref": "37"
+                      },
+                      "Id": "b2ca5518-ce84-47cd-b163-6e171079768f"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Viessmann Vitocrossal 200",
+                    "Description": null,
+                    "Id": "b2ca5518-ce84-47cd-b163-6e171079768f",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "46",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterTank, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "47",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "3aa21bfb-0cdd-401c-9e23-17e6a5372e12",
+                    "buildingUnit": {
+                      "$id": "48",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterTank, Energy10.Core.Domain",
+                      "capacity": 60.0,
+                      "count": 1.0,
+                      "electricalSupport": "No",
+                      "flowTemp": 80.0,
+                      "hasBackupPowerForSolarHeatPlant": false,
+                      "heatLoss": 0.8,
+                      "share": 1.0,
+                      "bValue": {
+                        "$id": "49",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 0.0,
+                        "unheatedRoom": null,
+                        "parent": null
+                      },
+                      "context": {
+                        "$ref": "46"
+                      },
+                      "Id": "edaa8be9-9ed0-429f-aab8-dc7eab0b96cb"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Metro 60 l",
+                    "Description": null,
+                    "Id": "edaa8be9-9ed0-429f-aab8-dc7eab0b96cb",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "50",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterChargingPump, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "51",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "fc0caf92-88fa-4aa4-83b9-cee11be55bd1",
+                    "buildingUnit": {
+                      "$id": "52",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterChargingPump, Energy10.Core.Domain",
+                      "effect": 10.0,
+                      "chargingEffect": 0.0,
+                      "isControlled": false,
+                      "tank": {
+                        "$ref": "48"
+                      },
+                      "context": {
+                        "$ref": "50"
+                      },
+                      "Id": "d87e1013-0c9b-4f19-9f79-4303702fad1d"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Ladekredspumpe",
+                    "Description": null,
+                    "Id": "d87e1013-0c9b-4f19-9f79-4303702fad1d",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "53",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterPipe, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "54",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "3a702fa5-81b4-4ba5-995d-84827ef530bc",
+                    "buildingUnit": {
+                      "$id": "55",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterPipe, Energy10.Core.Domain",
+                      "dimension": null,
+                      "material": null,
+                      "isolation": null,
+                      "typeOfPipe": "ConnectionPipe",
+                      "length": 2.0,
+                      "heatLoss": 0.2,
+                      "bValue": {
+                        "$id": "56",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 0.0,
+                        "unheatedRoom": null,
+                        "parent": null
+                      },
+                      "tank": {
+                        "$ref": "48"
+                      },
+                      "context": {
+                        "$ref": "53"
+                      },
+                      "Id": "5ed1414e-7d2e-455f-8ef8-ef5b66c9c4ac"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Tilslutning",
+                    "Description": null,
+                    "Id": "5ed1414e-7d2e-455f-8ef8-ef5b66c9c4ac",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "57",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterCirculationPump, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "58",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "fc0caf92-88fa-4aa4-83b9-cee11be55bd1",
+                    "buildingUnit": {
+                      "$id": "59",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterCirculationPump, Energy10.Core.Domain",
+                      "count": 1.0,
+                      "effect": 15.0,
+                      "reductionFactor": 1.0,
+                      "isElectricTracing": false,
+                      "tank": {
+                        "$ref": "48"
+                      },
+                      "context": {
+                        "$ref": "57"
+                      },
+                      "Id": "54a8ed16-52a5-49f0-90c6-09a68d81fda3"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "PumpCirc",
+                    "Description": null,
+                    "Id": "54a8ed16-52a5-49f0-90c6-09a68d81fda3",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "60",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterPipe, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "61",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "3a702fa5-81b4-4ba5-995d-84827ef530bc",
+                    "buildingUnit": {
+                      "$id": "62",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HotWaterPipe, Energy10.Core.Domain",
+                      "dimension": null,
+                      "material": null,
+                      "isolation": null,
+                      "typeOfPipe": "DistributionPipe",
+                      "length": 80.0,
+                      "heatLoss": 0.2,
+                      "bValue": {
+                        "$id": "63",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 0.0,
+                        "unheatedRoom": null,
+                        "parent": null
+                      },
+                      "tank": {
+                        "$ref": "48"
+                      },
+                      "context": {
+                        "$ref": "60"
+                      },
+                      "Id": "dbea9d39-f3ed-4560-88ea-3029dcb005f4"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Crik rør",
+                    "Description": null,
+                    "Id": "dbea9d39-f3ed-4560-88ea-3029dcb005f4",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "64",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.BuildingPart, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "65",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "0c9327e7-c68b-4131-adca-2d791bc1140b",
+                    "buildingUnit": {
+                      "$id": "66",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BuildingPart, Energy10.Core.Domain",
+                      "type": "HollowOuterWalls",
+                      "area": 1280.75,
+                      "bR08Classification": null,
+                      "bR08ClassificationForHolidayHome": null,
+                      "bR10Classification": "WallOrBasementWallAgainstGround",
+                      "bR10ClassificationForHolidayHome": null,
+                      "category": null,
+                      "dimension": null,
+                      "material": null,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "subCategory": null,
+                      "uValue": 0.21,
+                      "bValue": {
+                        "$id": "67",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "66"
+                        }
+                      },
+                      "context": {
+                        "$ref": "64"
+                      },
+                      "Id": "e48734a5-845e-4436-ae4f-21e8fd408a3c"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Ydervæg",
+                    "Description": null,
+                    "Id": "e48734a5-845e-4436-ae4f-21e8fd408a3c",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "68",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.BuildingPart, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "69",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "a67aa72d-886e-4217-a631-1e4ac5bece4b",
+                    "buildingUnit": {
+                      "$id": "70",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BuildingPart, Energy10.Core.Domain",
+                      "type": "GroundDeck",
+                      "area": 1940.0,
+                      "bR08Classification": null,
+                      "bR08ClassificationForHolidayHome": null,
+                      "bR10Classification": "TerrainDeckOrHorizontalDivision",
+                      "bR10ClassificationForHolidayHome": null,
+                      "category": null,
+                      "dimension": null,
+                      "material": null,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "subCategory": null,
+                      "uValue": 0.13,
+                      "bValue": {
+                        "$id": "71",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 0.7,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "70"
+                        }
+                      },
+                      "context": {
+                        "$ref": "68"
+                      },
+                      "Id": "50a281b0-c5c5-44b6-83bc-0f294a360b1f"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Terrændæk",
+                    "Description": null,
+                    "Id": "50a281b0-c5c5-44b6-83bc-0f294a360b1f",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "72",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.BuildingPart, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "73",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "005819b6-8d61-47c7-83a7-9d180c407903",
+                    "buildingUnit": {
+                      "$id": "74",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BuildingPart, Energy10.Core.Domain",
+                      "type": "FlatRoof",
+                      "area": 2018.3,
+                      "bR08Classification": null,
+                      "bR08ClassificationForHolidayHome": null,
+                      "bR10Classification": "CeilingAndRoof",
+                      "bR10ClassificationForHolidayHome": null,
+                      "category": null,
+                      "dimension": null,
+                      "material": null,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "subCategory": null,
+                      "uValue": 0.1,
+                      "bValue": {
+                        "$id": "75",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "74"
+                        }
+                      },
+                      "context": {
+                        "$ref": "72"
+                      },
+                      "Id": "11914f0c-6a13-43f9-8aeb-340f4f77ff02"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Tag",
+                    "Description": null,
+                    "Id": "11914f0c-6a13-43f9-8aeb-340f4f77ff02",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "76",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "77",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "78",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 52.92,
+                      "count": 1,
+                      "glassShare": 0.9,
+                      "mountedOn": null,
+                      "orientation": 0.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "79",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "78"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.63,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 1.8,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "80",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "78"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "76"
+                      },
+                      "Id": "b615219a-d6c6-453a-ba4a-8f8c29ff6803"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Indgang",
+                    "Description": null,
+                    "Id": "b615219a-d6c6-453a-ba4a-8f8c29ff6803",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "81",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "82",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "4da0aed5-730e-407b-a74e-7b6685e04b3e",
+                    "buildingUnit": {
+                      "$id": "83",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 1.8,
+                      "count": 4,
+                      "glassShare": 0.8,
+                      "mountedOn": null,
+                      "orientation": 270.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "84",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "83"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.63,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 1.8,
+                      "type": "Window",
+                      "bValue": {
+                        "$id": "85",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "83"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "81"
+                      },
+                      "Id": "bd68efc8-3418-485a-8721-1e71f918da8e"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Vinduer",
+                    "Description": null,
+                    "Id": "bd68efc8-3418-485a-8721-1e71f918da8e",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "86",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "87",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "88",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 14.0,
+                      "count": 1,
+                      "glassShare": 0.4,
+                      "mountedOn": null,
+                      "orientation": 180.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "89",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "88"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.5,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 2.5,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "90",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "88"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "86"
+                      },
+                      "Id": "65429774-14ff-4307-b0f7-c12d1de1e991"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Port v. natbox",
+                    "Description": null,
+                    "Id": "65429774-14ff-4307-b0f7-c12d1de1e991",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "91",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "92",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "93",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 6.0,
+                      "count": 1,
+                      "glassShare": 0.4,
+                      "mountedOn": null,
+                      "orientation": 180.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "94",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "93"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.5,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 2.5,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "95",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "93"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "91"
+                      },
+                      "Id": "9ac71c0a-f15f-45ba-80b9-8a6923ce72b8"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Port v. varergård",
+                    "Description": null,
+                    "Id": "9ac71c0a-f15f-45ba-80b9-8a6923ce72b8",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "96",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "97",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "98",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 2.2,
+                      "count": 1,
+                      "glassShare": 0.0,
+                      "mountedOn": null,
+                      "orientation": 180.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "99",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "98"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.0,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 1.8,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "100",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "98"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "96"
+                      },
+                      "Id": "3bf72d8a-e4f5-491e-8593-cf77fe295966"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Dør",
+                    "Description": null,
+                    "Id": "3bf72d8a-e4f5-491e-8593-cf77fe295966",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "101",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "102",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "103",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 4.84,
+                      "count": 1,
+                      "glassShare": 0.9,
+                      "mountedOn": null,
+                      "orientation": 90.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "104",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "103"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.5,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 2.5,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "105",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "103"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "101"
+                      },
+                      "Id": "b597aead-be68-4b4f-bae7-3318429fa85d"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Varerindlevering",
+                    "Description": null,
+                    "Id": "b597aead-be68-4b4f-bae7-3318429fa85d",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "106",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "107",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "108",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 2.915,
+                      "count": 2,
+                      "glassShare": 0.0,
+                      "mountedOn": null,
+                      "orientation": 90.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "109",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "108"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.0,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 1.8,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "110",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "108"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "106"
+                      },
+                      "Id": "ef819074-af1c-467b-92c1-40873f7c4132"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Branddør",
+                    "Description": null,
+                    "Id": "ef819074-af1c-467b-92c1-40873f7c4132",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "111",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "112",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "acb81992-7a14-4ab2-8b52-c076bdbb05a4",
+                    "buildingUnit": {
+                      "$id": "113",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window, Energy10.Core.Domain",
+                      "area": 2.915,
+                      "count": 2,
+                      "glassShare": 0.0,
+                      "mountedOn": null,
+                      "orientation": 270.0,
+                      "outerTemperature": null,
+                      "roomTemperature": null,
+                      "shadow": {
+                        "$id": "114",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Window+WindowShadow, Energy10.Core.Domain",
+                        "window": {
+                          "$ref": "113"
+                        },
+                        "title": "Ingen",
+                        "horizon": 30.0,
+                        "eaves": 0.0,
+                        "left": 0.0,
+                        "right": 0.0,
+                        "windowHole": 10.0
+                      },
+                      "solarHeatTransmittance": 0.0,
+                      "solarScreening": 1.0,
+                      "tilt": 90.0,
+                      "uValue": 1.8,
+                      "type": "ExteriorDoor",
+                      "bValue": {
+                        "$id": "115",
+                        "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.BFactor, Energy10.Core.Domain",
+                        "factor": 1.0,
+                        "unheatedRoom": null,
+                        "parent": {
+                          "$ref": "113"
+                        }
+                      },
+                      "category": null,
+                      "subCategory": null,
+                      "glassLayers": null,
+                      "glassType": null,
+                      "context": {
+                        "$ref": "111"
+                      },
+                      "Id": "a3d96452-b7e9-4dee-97a0-9fdf45e40771"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Branddør",
+                    "Description": null,
+                    "Id": "a3d96452-b7e9-4dee-97a0-9fdf45e40771",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "116",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "117",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "f3c0da70-210b-4a43-8b89-8b26fb1bb90d",
+                    "buildingUnit": {
+                      "$id": "118",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain",
+                      "area": 1387.6,
+                      "installedPowerUsage": 12.0,
+                      "minimumPowerUsage": 3.0,
+                      "lightingLevel": 500.0,
+                      "daylightFactor": 0.015,
+                      "lightingType": "Inside",
+                      "daylightControl": "LightingManualControl",
+                      "usageFactor": 1.0,
+                      "workingLightPowerUsage": 1.0,
+                      "otherLightPowerUsage": 0.0,
+                      "standbyPowerUsage": 0.0,
+                      "idlePowerUsage": 0.0,
+                      "context": {
+                        "$ref": "116"
+                      },
+                      "Id": "f2ad0cfb-772e-4d2b-992f-533373433c85"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "500 lux",
+                    "Description": null,
+                    "Id": "f2ad0cfb-772e-4d2b-992f-533373433c85",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "119",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "120",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "f3c0da70-210b-4a43-8b89-8b26fb1bb90d",
+                    "buildingUnit": {
+                      "$id": "121",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain",
+                      "area": 499.9,
+                      "installedPowerUsage": 7.2,
+                      "minimumPowerUsage": 3.0,
+                      "lightingLevel": 300.0,
+                      "daylightFactor": 0.0075,
+                      "lightingType": "Inside",
+                      "daylightControl": "LightingManualControl",
+                      "usageFactor": 1.0,
+                      "workingLightPowerUsage": 1.0,
+                      "otherLightPowerUsage": 0.0,
+                      "standbyPowerUsage": 0.0,
+                      "idlePowerUsage": 0.0,
+                      "context": {
+                        "$ref": "119"
+                      },
+                      "Id": "bc0fe706-d8d5-4aaf-8a67-1ffe65d3f9f0"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "300 lux",
+                    "Description": null,
+                    "Id": "bc0fe706-d8d5-4aaf-8a67-1ffe65d3f9f0",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "122",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "123",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "f3c0da70-210b-4a43-8b89-8b26fb1bb90d",
+                    "buildingUnit": {
+                      "$id": "124",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain",
+                      "area": 51.3,
+                      "installedPowerUsage": 4.8,
+                      "minimumPowerUsage": 3.0,
+                      "lightingLevel": 200.0,
+                      "daylightFactor": 0.0075,
+                      "lightingType": "Inside",
+                      "daylightControl": "LightingManualControl",
+                      "usageFactor": 1.0,
+                      "workingLightPowerUsage": 1.0,
+                      "otherLightPowerUsage": 0.0,
+                      "standbyPowerUsage": 0.0,
+                      "idlePowerUsage": 0.0,
+                      "context": {
+                        "$ref": "122"
+                      },
+                      "Id": "1f2957a7-a09a-492b-b76f-2402b7819223"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "200 lux",
+                    "Description": null,
+                    "Id": "1f2957a7-a09a-492b-b76f-2402b7819223",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "125",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "126",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "f3c0da70-210b-4a43-8b89-8b26fb1bb90d",
+                    "buildingUnit": {
+                      "$id": "127",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.Lighting, Energy10.Core.Domain",
+                      "area": 78.6,
+                      "installedPowerUsage": 2.4,
+                      "minimumPowerUsage": 3.0,
+                      "lightingLevel": 100.0,
+                      "daylightFactor": 0.0075,
+                      "lightingType": "Inside",
+                      "daylightControl": "LightingManualControl",
+                      "usageFactor": 1.0,
+                      "workingLightPowerUsage": 1.0,
+                      "otherLightPowerUsage": 0.0,
+                      "standbyPowerUsage": 0.0,
+                      "idlePowerUsage": 0.0,
+                      "context": {
+                        "$ref": "125"
+                      },
+                      "Id": "3ce229e3-7dfb-46f3-a847-52aecfef1075"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "100 lux",
+                    "Description": null,
+                    "Id": "3ce229e3-7dfb-46f3-a847-52aecfef1075",
+                    "proposal": null
+                  },
+                  {
+                    "$id": "128",
+                    "$type": "Energy10.Core.Domain.Model.Case.Contexts.BuildingUnitStatus`1[[Energy10.Core.Domain.Model.Case.BuildingUnits.HeatDistributionPump, Energy10.Core.Domain]], Energy10.Core.Domain",
+                    "proposals": {
+                      "$id": "129",
+                      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IProposal, Energy10.Core.Domain]], mscorlib",
+                      "$values": []
+                    },
+                    "zone": {
+                      "$ref": "8"
+                    },
+                    "isTrashed": false,
+                    "StatusTextGroupId": "f2c97be5-6a1d-4e6f-9240-fb7f4f96e849",
+                    "buildingUnit": {
+                      "$id": "130",
+                      "$type": "Energy10.Core.Domain.Model.Case.BuildingUnits.HeatDistributionPump, Energy10.Core.Domain",
+                      "nominalEffect": 20.0,
+                      "reductionFactor": 1.0,
+                      "typeOfPump": "TimeControl",
+                      "count": 1.0,
+                      "context": {
+                        "$ref": "128"
+                      },
+                      "Id": "e5b8612f-4a6f-40d3-9cb7-f0245efb7c93"
+                    },
+                    "textVisibility": "Visible",
+                    "TextOrder": 0,
+                    "Summary": "Pumpe fra kedel",
+                    "Description": null,
+                    "Id": "e5b8612f-4a6f-40d3-9cb7-f0245efb7c93",
+                    "proposal": null
+                  }
+                ]
+              },
+              "additionToEnergyFrame": 127.6,
+              "usageDays": 6.333333333333333,
+              "usageFrom": 7,
+              "usageTo": 19,
+              "usage": "NonResidental",
+              "Building": {
+                "$ref": "3"
+              },
+              "IsTrashed": false,
+              "TypeOfZone": "OtherBuilding",
+              "SubtractWindowAreaFromOuterWalls": false,
+              "Height": null,
+              "FloorCount": 1,
+              "Name": "Harald Nyborg. Viborg",
+              "IsTenancy": false,
+              "BBRUseCode": null,
+              "SetPointStoreTemperature": 15.0,
+              "DimensioningStoreTemperature": 15.0,
+              "HeatedArea": 2017.4,
+              "HeatCapacity": 160.0,
+              "HeatCapacityForProposals": null,
+              "RoomTemperature": 20.0,
+              "OuterTemperature": -12.0,
+              "Rotation": 6.33,
+              "SetPointHeatedTemperature": 20.0,
+              "SetPointWantedTemperature": 23.0,
+              "SetPointNaturalVentilationTemperature": 24.0,
+              "SetPointCoolingTemperature": 25.0,
+              "ElectricityPrice": {
+                "$id": "131",
+                "$type": "System.Nullable`1[[System.Money, Money]], mscorlib",
+                "_currency": {
+                  "$id": "132",
+                  "$type": "System.Currency, Money",
+                  "_id": 208
+                },
+                "_units": 2,
+                "_decimalFraction": 0
+              },
+              "WaterPrice": {
+                "$id": "133",
+                "$type": "System.Nullable`1[[System.Money, Money]], mscorlib",
+                "_currency": {
+                  "$id": "134",
+                  "$type": "System.Currency, Money",
+                  "_id": 208
+                },
+                "_units": 35,
+                "_decimalFraction": 0
+              },
+              "Id": "707ca150-de62-4320-9211-59ce7fbcc749"
+            }
+          ]
+        },
+        "bbrBuildingNumber": 1,
+        "housingUnits": 1,
+        "Case": {
+          "$ref": "1"
+        },
+        "IsTrashed": false,
+        "Name": "Hovedbygning",
+        "Tenancy": true,
+        "BuildingRegulation": "BR10",
+        "LoggedConsumptionsComments": null,
+        "BBRBuildingYear": 2012,
+        "BBRRenovationYear": null,
+        "BBRDwellingArea": 0.0,
+        "BBRCommercialArea": 2017.4,
+        "BBRUseCode": 320,
+        "CommentsOnBuilding": "Der findes endnu ikke en komplet udført BBR meddelelse på det pågældende tidspunkt bygningen er besigtiget.",
+        "CommentsOnPrices": null,
+        "BR08BuildingPermitClassification": null,
+        "BR10BuildingPermitClassification": null,
+        "UnheatedBasementArea": 0.0,
+        "HeatedTopStoreyArea": 0.0,
+        "HeatedBasementArea": 0.0,
+        "Address": {
+          "$id": "135",
+          "$type": "Energy10.Core.Domain.Model.Case.BuildingAddress, Energy10.Core.Domain",
+          "building": {
+            "$ref": "3"
+          },
+          "houseNumber": null,
+          "sideOrDoor": null,
+          "streetCode": null,
+          "streetName": null
+        },
+        "Id": "d2a059f4-d2e6-43fa-8428-5c5c5f1ad182"
+      }
+    ]
+  },
+  "apartments": {
+    "$id": "136",
+    "$type": "Energy10.Core.Domain.Model.Case.Apartments, Energy10.Core.Domain",
+    "case": {
+      "$ref": "1"
+    },
+    "apartments": {
+      "$id": "137",
+      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Apartment, Energy10.Core.Domain]], mscorlib",
+      "$values": []
+    }
+  },
+  "reportedConsumptions": {
+    "$id": "138",
+    "$type": "Energy10.Core.Domain.Model.Case.ReportedConsumptions, Energy10.Core.Domain",
+    "case": {
+      "$ref": "1"
+    },
+    "consumptions": {
+      "$id": "139",
+      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.ReportedConsumption, Energy10.Core.Domain]], mscorlib",
+      "$values": []
+    }
+  },
+  "statusTextGroupTexts": null,
+  "statusTextGroupIds": null,
+  "statusTextGroups": {
+    "$id": "140",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain]], mscorlib",
+    "692b6c8b-cb13-4337-8f3c-b520c4d72717": {
+      "$id": "141",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "142",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "11"
+          },
+          {
+            "$ref": "15"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "692b6c8b-cb13-4337-8f3c-b520c4d72717"
+    },
+    "9c0c47c4-9170-4891-b495-fa1d2828a028": {
+      "$id": "143",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "144",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "19"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "9c0c47c4-9170-4891-b495-fa1d2828a028"
+    },
+    "44ca92bd-ea61-4ea9-b79c-a56afcef7800": {
+      "$id": "145",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "146",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "22"
+          },
+          {
+            "$ref": "25"
+          },
+          {
+            "$ref": "28"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "44ca92bd-ea61-4ea9-b79c-a56afcef7800"
+    },
+    "2847fbf1-0292-479a-ad21-6766e49e3791": {
+      "$id": "147",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "148",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "31"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "2847fbf1-0292-479a-ad21-6766e49e3791"
+    },
+    "526a3ec1-d1b8-4322-9803-5591c8ef2171": {
+      "$id": "149",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "150",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "34"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "526a3ec1-d1b8-4322-9803-5591c8ef2171"
+    },
+    "64b4778f-d8c2-4e5a-b12c-34831f0e74c4": {
+      "$id": "151",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "152",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "37"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "64b4778f-d8c2-4e5a-b12c-34831f0e74c4"
+    },
+    "3aa21bfb-0cdd-401c-9e23-17e6a5372e12": {
+      "$id": "153",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "154",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "46"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "3aa21bfb-0cdd-401c-9e23-17e6a5372e12"
+    },
+    "fc0caf92-88fa-4aa4-83b9-cee11be55bd1": {
+      "$id": "155",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "156",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "50"
+          },
+          {
+            "$ref": "57"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "fc0caf92-88fa-4aa4-83b9-cee11be55bd1"
+    },
+    "3a702fa5-81b4-4ba5-995d-84827ef530bc": {
+      "$id": "157",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "158",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "53"
+          },
+          {
+            "$ref": "60"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "3a702fa5-81b4-4ba5-995d-84827ef530bc"
+    },
+    "005819b6-8d61-47c7-83a7-9d180c407903": {
+      "$id": "159",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "160",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "72"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "005819b6-8d61-47c7-83a7-9d180c407903"
+    },
+    "4da0aed5-730e-407b-a74e-7b6685e04b3e": {
+      "$id": "161",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "162",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "81"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "4da0aed5-730e-407b-a74e-7b6685e04b3e"
+    },
+    "f3c0da70-210b-4a43-8b89-8b26fb1bb90d": {
+      "$id": "163",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "164",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "116"
+          },
+          {
+            "$ref": "119"
+          },
+          {
+            "$ref": "122"
+          },
+          {
+            "$ref": "125"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "f3c0da70-210b-4a43-8b89-8b26fb1bb90d"
+    },
+    "f2c97be5-6a1d-4e6f-9240-fb7f4f96e849": {
+      "$id": "165",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "166",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "128"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "f2c97be5-6a1d-4e6f-9240-fb7f4f96e849"
+    },
+    "0c9327e7-c68b-4131-adca-2d791bc1140b": {
+      "$id": "167",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "168",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "64"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "0c9327e7-c68b-4131-adca-2d791bc1140b"
+    },
+    "a67aa72d-886e-4217-a631-1e4ac5bece4b": {
+      "$id": "169",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "170",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "68"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "a67aa72d-886e-4217-a631-1e4ac5bece4b"
+    },
+    "acb81992-7a14-4ab2-8b52-c076bdbb05a4": {
+      "$id": "171",
+      "$type": "Energy10.Core.Domain.Model.Case.StatusTextGroup, Energy10.Core.Domain",
+      "statuses": {
+        "$id": "172",
+        "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.Contexts.IStatus, Energy10.Core.Domain]], mscorlib",
+        "$values": [
+          {
+            "$ref": "76"
+          },
+          {
+            "$ref": "86"
+          },
+          {
+            "$ref": "91"
+          },
+          {
+            "$ref": "96"
+          },
+          {
+            "$ref": "101"
+          },
+          {
+            "$ref": "106"
+          },
+          {
+            "$ref": "111"
+          }
+        ]
+      },
+      "proposalGroup": null,
+      "OwnDescription": null,
+      "Id": "acb81992-7a14-4ab2-8b52-c076bdbb05a4"
+    }
+  },
+  "proposalGroups": null,
+  "proposalGroups2": {
+    "$id": "173",
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, mscorlib],[Energy10.Core.Domain.Model.Case.ProposalGroup, Energy10.Core.Domain]], mscorlib"
+  },
+  "calculationSummary": {
+    "$id": "174",
+    "$type": "Energy10.Core.Domain.Model.Case.CalculationSummary, Energy10.Core.Domain",
+    "StatusEnergyDemandPerArea": 0.0,
+    "StatusEnergyLabelClassification": "A1",
+    "AllProposalsEnergyDemandPerArea": 0.0,
+    "AllProposalsEnergyLabelClassification": "A1"
+  },
+  "isFailedByConsultant": false,
+  "isApprovedByConsultant": false,
+  "User": {
+    "$id": "175",
+    "$type": "Energy10.Core.Domain.Model.Case.Case+UserReference, Energy10.Core.Domain",
+    "CompanyId": "eadcea0d-e2ce-4689-9b28-0ee0cc6c301f",
+    "SubtractWindowAreaFromOuterWalls": false,
+    "Username": "bep@midtconsult.dk",
+    "Initials": "BEP",
+    "FullName": "Bent Poulsen",
+    "Id": "289ef620-e78e-40d8-9879-430f2ea5bbb5"
+  },
+  "UnheatedRooms": {
+    "$id": "176",
+    "$type": "Energy10.Core.Domain.Model.Case.UnheatedRooms, Energy10.Core.Domain",
+    "case": {
+      "$ref": "1"
+    },
+    "unheatedRooms": {
+      "$id": "177",
+      "$type": "System.Collections.Generic.List`1[[Energy10.Core.Domain.Model.Case.UnheatedRoom, Energy10.Core.Domain]], mscorlib",
+      "$values": []
+    }
+  },
+  "Submission": null,
+  "IsSubmitting": false,
+  "Image": {
+    "$id": "178",
+    "$type": "Energy10.Core.Domain.Model.Case.Image, Energy10.Core.Domain",
+    "Id": "00000000-0000-0000-0000-000000000000"
+  },
+  "Created": "2012-08-28T09:29:58.3830166",
+  "Name": "xxxxx - Harald Nyborg",
+  "ReportName": "Harald Nyborg",
+  "Energy08Id": null,
+  "BBRMunicipalityNumber": 791,
+  "BBREstateNumber": 231924,
+  "PrimaryHeatSupplyForHolidayHome": null,
+  "SecondaryHeatSupplyForHolidayHome": null,
+  "ReviewDate": null,
+  "Address": {
+    "$id": "179",
+    "$type": "Energy10.Core.Domain.Model.Case.CaseAddress, Energy10.Core.Domain",
+    "postalCode": 8800,
+    "StreetName": "Christiansminde",
+    "HouseNumber": "1",
+    "SideOrDoor": null,
+    "StreetCode": 2152,
+    "Formatted": "Christiansminde 1, 8800 Viborg"
+  },
+  "Ownership": "Company",
+  "AdditionalComments": null,
+  "BuildingRegulationApprovalComments": null,
+  "IsApprovedAccordingToBuildingRegulation": false,
+  "ApartmentsComments": null,
+  "ReportedConsumptionsComments": null,
+  "HomeOwner": null,
+  "CalculationEngineVersion": "Be10v5",
+  "IsTrashed": true,
+  "BasedOn": "CalculatedConsumption",
+  "NewOrExisting": "NewBuild",
+  "IncludesVAT": true,
+  "BBRMunicipalityNumberFormatted": "791",
+  "BBREstateNumberFormatted": "231924",
+  "IsVisible": false,
+  "Usage": "None",
+  "IsSubmitted": false
+}

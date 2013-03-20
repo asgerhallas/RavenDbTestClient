@@ -1,0 +1,1 @@
+C:\workspace\RavenDbTestClient\TestingUsingCustomServer\Server\bin\Debug\ConsoleApplication1.exe.config

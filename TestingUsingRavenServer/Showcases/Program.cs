@@ -10,7 +10,7 @@ namespace Showcases
 {
     class Program
     {
-        const string remoteRavenFromGit = "http://217.116.214.21:8080";
+        const string remoteRavenFromGit = "http://10.10.0.36:8080";
 
         static void Main(string[] args)
         {
@@ -18,11 +18,11 @@ namespace Showcases
             ServicePointManager.Expect100Continue = false;
 
             // The original problem that is easily fixed by turning off nagle on the client
-            ShowPlus200msPUTs();
+            //ShowPlus200msPUTs();
 
             // Using a home brewed http get (see below) - this is fast but with occasional spikes.
             // Note: Compression is turned off here by default, becasue it seems to be off on the DatabaseCommands.Get too.
-            //ShowOccasionalSlowGETs();
+            ShowOccasionalSlowGETs();
 
             // Using the DatabaseCommands.Get - this is way slower and it spikes more often.
             // Note: The spikes can be seen in the server log, the general slowness is on the client
